@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 400px;
+  border-color: gray;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.flex-image {
+  display: flex;
+  border-color: tomato;
+  background-color: tomato;
+}
+
+.flex-tag {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: .25em;
+  padding-bottom:  .25em;
+  background-color: lightgray;
+  border-radius: 10px;
+  justify-content: center;
+  color:white;
+
+
+}
+
+html {
+  font-family:sans-serif;
+}
