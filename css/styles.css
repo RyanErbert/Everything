@@ -1,12 +1,12 @@
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   /* justify-content: center; */
   min-width: 200px;
   min-height: 200px;
   max-width: 400px;
-  border-color: gray;
+  border-color: tomato;
   border-style: solid;
   border-width: thick;
   border-radius: 10px;
@@ -36,4 +36,9 @@
 
 html {
   font-family:sans-serif;
+}
+
+img{
+    height: :100%;
+    max-height:200px;
 }
