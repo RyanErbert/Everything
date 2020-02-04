@@ -1,8 +1,28 @@
 html {
-  font-family:'IBMVGA8';
+  /* font-family:'pxplus_ibm_vga8regular'; */
+}
+
+@font-face {
+    /* font-family: 'pxplus_ibm_vga8regular';
+    src: url('fonts/IBMVGA8.ttf') format('truetype'),
+         url('fonts/ibmvga8-webfont.woff2') format('woff2'),
+         url('fonts/ibmvga8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; */
+}
+
+button {
+
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }
 
 .container{
+  display: flex;
+  flex-direction: row;
 
 }
 
@@ -22,7 +42,10 @@ html {
   flex-direction: column;
 }
 
+
+
 .skillButton{
+  width: 100%;
 
 }
 
@@ -30,10 +53,29 @@ html {
 
 }
 
+.item{
 
+}
 
+.itemTitle{
 
+}
 
+.itemDescrip{
+
+}
+
+.itemImg{
+
+}
+
+.itemTagBox{
+
+}
+
+.itemTags{
+
+}
 
 
 /*
@@ -72,3 +114,4 @@ html {
 
 
 }
+*/
