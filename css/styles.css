@@ -3,7 +3,7 @@ html {
 }
 
 @font-face {
-    /* font-family: 'pxplus_ibm_vga8regular';
+  /* font-family: 'pxplus_ibm_vga8regular';
     src: url('fonts/IBMVGA8.ttf') format('truetype'),
          url('fonts/ibmvga8-webfont.woff2') format('woff2'),
          url('fonts/ibmvga8-webfont.woff') format('woff');
@@ -11,72 +11,77 @@ html {
     font-style: normal; */
 }
 
+
 button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0;
+  border-style: solid;
+  border-color: black;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 300;
+
+  transition: all 0.2s;
+  text-align: center;
+  background-color: white;
 
 }
 
 button:hover {
-  background-color: #4CAF50; /* Green */
   color: white;
+  background-color: black;
+
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
-
 }
 
-.box{
-
+.box {
 }
 
-.boxA{
+.boxA {
   flex-direction: row;
 }
 
-.boxB{
+.boxB {
   flex-direction: column;
 }
 
-.boxC{
+.boxC {
   flex-direction: column;
 }
 
-
-
-.skillButton{
+.skillButton {
   width: 100%;
-
 }
 
-.projRow{
-
+.projRow {
+  overflow: auto;
 }
 
-.item{
-
+.item {
 }
 
-.itemTitle{
-
+.itemTitle {
 }
 
-.itemDescrip{
-
+.itemDescrip {
 }
 
-.itemImg{
-
+.itemImg {
 }
 
-.itemTagBox{
-
+.itemTagBox {
 }
 
-.itemTags{
-
+.itemTags {
 }
-
 
 /*
 
