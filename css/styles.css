@@ -1,16 +1,3 @@
-html {
-  /* font-family:'pxplus_ibm_vga8regular'; */
-}
-
-@font-face {
-  /* font-family: 'pxplus_ibm_vga8regular';
-    src: url('fonts/IBMVGA8.ttf') format('truetype'),
-         url('fonts/ibmvga8-webfont.woff2') format('woff2'),
-         url('fonts/ibmvga8-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal; */
-}
-
 
 button {
   display: inline-block;
@@ -22,101 +9,34 @@ button {
   border-color: black;
   box-sizing: border-box;
   text-decoration: none;
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 300;
-
   transition: all 0.2s;
   text-align: center;
   background-color: white;
-
 }
 
 button:hover {
   color: white;
   background-color: black;
-
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
+header{
+  background:black;
 }
 
-.box {
-}
-
-.boxA {
-  flex-direction: row;
-}
-
-.boxB {
-  flex-direction: column;
-}
-
-.boxC {
-  flex-direction: column;
-}
-
-.skillButton {
-  width: 100%;
-}
-
-.projRow {
-  overflow: auto;
-}
-
-.item {
-}
-
-.itemTitle {
-}
-
-.itemDescrip {
-}
-
-.itemImg {
-}
-
-.itemTagBox {
-}
-
-.itemTags {
-}
-
-/*
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  min-width: 200px;
-  min-height: 200px;
-  max-width: 400px;
-  border-color: tomato;
+.project{
   border-style: solid;
-  border-width: thick;
-  border-radius: 10px;
-  margin: 20px;
-}
-
-.boxImg {
-  display: flex;
   border-color: black;
-  background-color: tomato;
+  border: 0.1em solid black;
+  margin: auto;
+  width: max-content;
 }
 
-.boxTag {
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-  padding-top: .25em;
-  padding-bottom:  .25em;
-  background-color: lightgray;
-  border-radius: 10px;
-  justify-content: center;
-  color:white;
-
+footer{
+  position: absolute;
+  bottom: 0;
+  background:red;
+  width:100%;
+  
 
 }
-*/
