@@ -1,10 +1,39 @@
 
+body{
+  /* overflow:hidden; */
+}
+
+header{
+height:3em;
+border-bottom: 0.2em solid black;
+display:inline-block;
+width:100%;
+/* align-items:center; */
+}
+
+main{
+display:flex;
+flex-direction:row;
+flex:auto;
+}
+
+
+nav{
+display:flex;
+flex-direction: column;
+width:13em;
+border-right: 0.2em solid black;
+margin:0px;
+
+}
+
 button {
   display: inline-block;
   padding: 0.35em 1.2em;
-  border: 0.1em solid black;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0;
+  border: 0px;
+  border-bottom: 0.2em solid black;
+  margin: 0px;
+  /* border-radius: 100px; */
   border-style: solid;
   border-color: black;
   box-sizing: border-box;
@@ -20,23 +49,38 @@ button:hover {
   background-color: black;
 }
 
-header{
-  background:black;
+
+.test{
+  border: 0.2em dashed red;
+
+}
+
+
+.main-box{
+  margin: 1em;
+  border: 0.2em solid black;
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap:wrap;
+  height:calc(100vh - 2.4em);
+  flex-direction: column;
+
 }
 
 .project{
+  margin: 1em;
   border-style: solid;
   border-color: black;
-  border: 0.1em solid black;
-  margin: auto;
-  width: max-content;
+  border: 0.2em solid black;
+  /* margin: auto; */
+  /* width: 20%; */
+  display: inline-block;
+  text-align:left;
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
-  background:red;
-  width:100%;
-  
 
+}
+.project-img{
+  max-height:300px;
+  width:auto;
 }
