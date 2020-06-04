@@ -1,46 +1,58 @@
 
 body{
-  /* overflow:hidden; */
+  margin: 1em;
+  border: 0.2em solid black;
+  box-sizing: content-box;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  height:calc(100vh - 2.4em);
+  /* flex-direction: column; */
 }
 
 header{
-height:3em;
-border-bottom: 0.2em solid black;
-display:inline-block;
-width:100%;
-/* align-items:center; */
+  height:3em;
+  border-bottom: 0.2em solid black;
+  /* display:inline-block; */
+  width:100%;
 }
 
 main{
-display:flex;
-flex-direction:row;
-flex:auto;
+  display:flex;
+  flex-direction:row;
+  height:calc(100vh - 5.4em);
+  margin:0px;
+
 }
 
 
 nav{
-display:flex;
-flex-direction: column;
-width:13em;
-border-right: 0.2em solid black;
-margin:0px;
+  display:flex;
+  flex-direction: column;
+  min-width:13em;
+  border-right: 0.2em solid black;
+  height:inherit;
 
+  margin:0px;
 }
 
-button {
+.btn-txt{
+  width:100%;
+  display: inline-block;
+}
+
+.btn-txtB{
+  text-align: right;
+}
+
+.skillButton {
   display: inline-block;
   padding: 0.35em 1.2em;
   border: 0px;
   border-bottom: 0.2em solid black;
   margin: 0px;
-  /* border-radius: 100px; */
-  border-style: solid;
-  border-color: black;
   box-sizing: border-box;
-  text-decoration: none;
-  font-weight: 300;
   transition: all 0.2s;
-  text-align: center;
+  /* text-align: left; */
   background-color: white;
 }
 
@@ -50,37 +62,35 @@ button:hover {
 }
 
 
-.test{
-  border: 0.2em dashed red;
-
-}
-
-
-.main-box{
-  margin: 1em;
-  border: 0.2em solid black;
-  box-sizing: content-box;
-  display: flex;
+.projects-container{
+  height:inherit;
+  display:flex;
   flex-wrap:wrap;
-  height:calc(100vh - 2.4em);
-  flex-direction: column;
+  flex-direction: row;
+  overflow-y: auto;
+  overflow-x:hidden;
+  align-content: flex-start;
+  margin:0px;
+  padding:1em;
 
 }
+
 
 .project{
+  float:left;
   margin: 1em;
-  border-style: solid;
-  border-color: black;
   border: 0.2em solid black;
-  /* margin: auto; */
-  /* width: 20%; */
-  display: inline-block;
+  /* display: inline-block; */
   text-align:left;
+  height:250px;
+  min-width:300px;
+  max-width:500px
 }
 
 
 }
 .project-img{
-  max-height:300px;
+  height: 300px;
   width:auto;
+  position:absolute;
 }
