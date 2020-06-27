@@ -1,3 +1,9 @@
+@font-face {
+  font-family: IBMVGA8;
+  src: url(/font/IBMVGA8.ttf);
+}
+
+
 
 body{
   margin: 1em;
@@ -7,6 +13,8 @@ body{
   /* flex-wrap: wrap; */
   height:calc(100vh - 2.4em);
   /* flex-direction: column; */
+  font-family: IBMVGA8,monospace;
+
 }
 
 header{
@@ -88,7 +96,7 @@ button:hover {
 }
 
 
-}
+
 .project-img{
   height: 300px;
   width:auto;
